@@ -1,11 +1,11 @@
-# Superset Homebrew Tap
+# Paradev Homebrew Tap
 
-Homebrew tap for the [Superset](https://superset.sh) CLI.
+Homebrew tap for the [Paradev](https://paradev.com) CLI.
 
 ## Install
 
 ```sh
-brew install superset-sh/tap/superset
+brew install paradevai/tap/superset
 ```
 
 ## Usage
@@ -15,9 +15,9 @@ superset auth login
 superset host start --daemon
 ```
 
-See [superset.sh](https://superset.sh) for more.
+See [paradev.com](https://paradev.com) for more.
 
 ## Formula
 
 The formula is auto-updated by CI on every new CLI release in
-[superset-sh/superset](https://github.com/superset-sh/superset).
+[paradevai/paradev](https://github.com/paradevai/paradev).
