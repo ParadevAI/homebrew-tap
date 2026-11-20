@@ -1,28 +1,28 @@
 class Superset < Formula
   desc "CLI and host-service for Paradev"
   homepage "https://paradev.com"
-  version "2.0.10"
+  version "2.0.11"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/paradevai/paradev/releases/download/cli-v#{version}/superset-darwin-arm64.tar.gz"
-      sha256 "2e5f68e938f356e3720b4bc14f97e2ebb325ab2269e13da559f917b89f55d013"
+      sha256 "1d1ee4b05ec4ca39db1dedd5d9ab4be384b31dcb30fba9f78a3a06e3b25a31f0"
     end
     on_intel do
       url "https://github.com/paradevai/paradev/releases/download/cli-v#{version}/superset-darwin-x64.tar.gz"
-      sha256 "33127cce2a6d98c7244d0ef9731d4fa86d3100bbe1cb9e5ac9a6e9cf6f6ab6b0"
+      sha256 "15ba6b237babf57c74d5c0b0c52c62a4be9780e69e01963fd49151c21c5d5d98"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/paradevai/paradev/releases/download/cli-v#{version}/superset-linux-x64.tar.gz"
-      sha256 "f4cc3dafadfc76e2e3b9ebd2cb34248ce5fd3792abc8413e1f09e0c34ee191c9"
+      sha256 "dd9869a07a11bd074e7d757762a94292f67a534905c9a00fc04aeb7a2ca2f40b"
     end
     on_arm do
       url "https://github.com/paradevai/paradev/releases/download/cli-v#{version}/superset-linux-arm64.tar.gz"
-      sha256 "526fedac333e464a7b0297ffe76e5817d6739a928fdf961ebc782f4aaac2b107"
+      sha256 "1c7f90e1974bcd7d7017007d6905156c3c0c1944e36f9706af37e462158f3750"
     end
   end
 
